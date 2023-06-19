@@ -666,12 +666,36 @@ video {
   left: 4%;
 }
 
+.left-9 {
+  left: 2.25rem;
+}
+
+.bottom-2 {
+  bottom: 0.5rem;
+}
+
+.bottom-4 {
+  bottom: 1rem;
+}
+
+.bottom-6 {
+  bottom: 1.5rem;
+}
+
+.bottom-8 {
+  bottom: 2rem;
+}
+
 .z-10 {
   z-index: 10;
 }
 
 .z-20 {
   z-index: 20;
+}
+
+.-z-10 {
+  z-index: -10;
 }
 
 .mt-\[20\%\] {
@@ -722,6 +746,30 @@ video {
   margin-top: 1.25rem;
 }
 
+.ml-9 {
+  margin-left: 2.25rem;
+}
+
+.mt-\[4\] {
+  margin-top: 4;
+}
+
+.mt-\[4\%\] {
+  margin-top: 4%;
+}
+
+.ml-\[55\%\] {
+  margin-left: 55%;
+}
+
+.ml-\[65\%\] {
+  margin-left: 65%;
+}
+
+.ml-\[45\%\] {
+  margin-left: 45%;
+}
+
 .flex {
   display: flex;
 }
@@ -756,6 +804,30 @@ video {
 
 .h-\[7\%\] {
   height: 7%;
+}
+
+.h-\[15\] {
+  height: 15;
+}
+
+.h-\[25\%\] {
+  height: 25%;
+}
+
+.h-\[55\%\] {
+  height: 55%;
+}
+
+.h-\[65\%\] {
+  height: 65%;
+}
+
+.h-\[95\%\] {
+  height: 95%;
+}
+
+.h-\[85\%\] {
+  height: 85%;
 }
 
 .w-auto {
@@ -824,6 +896,22 @@ video {
 
 .w-\[22\%\] {
   width: 22%;
+}
+
+.w-\[85\%\] {
+  width: 85%;
+}
+
+.w-\[65\%\] {
+  width: 65%;
+}
+
+.w-\[45\%\] {
+  width: 45%;
+}
+
+.w-\[35\%\] {
+  width: 35%;
 }
 
 .rotate-12 {
@@ -906,6 +994,18 @@ video {
   --tw-bg-opacity: 25%;
 }
 
+.bg-opacity-40 {
+  --tw-bg-opacity: 0.4;
+}
+
+.bg-opacity-50 {
+  --tw-bg-opacity: 0.5;
+}
+
+.bg-opacity-70 {
+  --tw-bg-opacity: 0.7;
+}
+
 .bg-\[url\(\'\.\.\/assets\/luisa-brimble-2RrBE90w0T8-unsplash\.jpg\'\)\] {
   background-image: url('../assets/luisa-brimble-2RrBE90w0T8-unsplash.jpg');
 }
@@ -936,6 +1036,26 @@ video {
 
 .bg-\[url\(\'\.\.\/assets\/61842\.jpg\'\)\] {
   background-image: url('../assets/61842.jpg');
+}
+
+.bg-\[url\(\'\.assets\/61842\.jpg\.\/\'\)\] {
+  background-image: url('.assets/61842.jpg./');
+}
+
+.bg-\[url\(\'C\:\\Users\\lylyb\\OneDrive\\Bureau\\IIM\\A2\\rattrapages-Lyn1603\\03-Tailwind\\assets\\ismael-trevino-NDyuR4Huig8-unsplash\.jpg\'\)\] {
+  background-image: url('C:\Users\lylyb\OneDrive\Bureau\IIM\A2\rattrapages-Lyn1603\03-Tailwind\assets\ismael-trevino-NDyuR4Huig8-unsplash.jpg');
+}
+
+.bg-\[url\(\'assets\\ismael-trevino-NDyuR4Huig8-unsplash\.jpg\'\)\] {
+  background-image: url('assets\ismael-trevino-NDyuR4Huig8-unsplash.jpg');
+}
+
+.bg-\[url\(\'\.\.\/assets\\ismael-trevino-NDyuR4Huig8-unsplash\.jpg\'\)\] {
+  background-image: url('../assets\ismael-trevino-NDyuR4Huig8-unsplash.jpg');
+}
+
+.bg-\[url\(\'\.\.\/assets\/ismael-trevino-NDyuR4Huig8-unsplash\.jpg\'\)\] {
+  background-image: url('../assets/ismael-trevino-NDyuR4Huig8-unsplash.jpg');
 }
 
 .from-\[\#60A0D8\] {
@@ -995,6 +1115,10 @@ video {
   padding-left: 1.5rem;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .text-\[1rem\] {
   font-size: 1rem;
 }
@@ -1033,6 +1157,10 @@ video {
 
 .font-semibold {
   font-weight: 600;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .text-\[\#B2D234\] {

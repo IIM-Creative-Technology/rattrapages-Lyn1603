@@ -3,24 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="/src/style.css" rel="stylesheet">
-  <link href="/dist/output.css" rel="stylesheet">
+  <link href="./src/style.css" rel="stylesheet">
+  <link href="./dist/output.css" rel="stylesheet">
 </head>
 <body>
-<div class="flex flex-col">
+<div class=" flex flex-col md:w-full lg:w-full  ">
 
   <div class=" flex flex-col bg-[url('../assets/luisa-brimble-2RrBE90w0T8-unsplash.jpg')] bg-cover h-screen w-full relative">
     <div class="flex flex-row justify-between items-center absolute top-4 z-10 w-full pl-[64px] pr-[64px]">
 
-      <img src="../assets/mangoo.png" alt="logo" class="w-auto h-14">
+      <img src="./assets/mangoo.png" alt="logo" class="w-auto h-14">
 
-      <nav class="flex flex-row items-center gap-[35px] ">
+      <nav class="md: flex hidden flex-row items-center gap-[35px]  ">
         <a href="#" class="text-white">Accueil</a>
         <a href="#" class="text-white">Qui sommes-nous ?</a>
         <a href="#" class="text-white">Menu</a>
         <a href="#" class="text-white">Contact</a>
         <button class="bg-white text-[#B2D234] px-[32px] py-[7px] rounded font-semibold	"> Commander </button>
       </nav>
+
+      <div class="md:hidden flex ">
+        <div class="space-y-2  mt-10 relative bottom-4 ">
+          <span class="block w-12 h-1 bg-white"></span>
+          <span class="block w-12 h-1 bg-white"></span>
+          <span class="block w-12 h-1 bg-white"></span>
+        </div>
+      </div>
 
   </div>
 
@@ -33,9 +41,9 @@
 
   <div class=" flex flex-row absolute top-[90%] left-[80%] z-10 pl-[64px] pr-[64px] gap-4 ">
 
-    <img src="../assets/Icon awesome-facebook-square.png" alt="" srcset="">
-    <img src="../assets/Icon awesome-twitter-square.png" alt="" srcset="">
-    <img src="../assets/Icon awesome-instagram.png" alt="" srcset="">
+    <img src="./assets/Icon awesome-facebook-square.png" alt="" srcset="">
+    <img src="./assets/Icon awesome-twitter-square.png" alt="" srcset="">
+    <img src="./assets/Icon awesome-instagram.png" alt="" srcset="">
   
   </div>
 
@@ -49,7 +57,7 @@
 
   <div class="flex flex-col justify-left relative mt-[10%] ml-[5%] w-full h-screen pl-[64px] pr-[64px] ">
 
-    <h1 class=" text-[3.5rem] text-[#B2D234] font-semibold">Un salade sur mesure</h1>
+    <h1 class=" text-[3.5rem] text-[#B2D234] font-semibold">Une salade sur mesure</h1>
     <div class=" mt-4 flex flex-col gap-4 ">
       <p> MONGOO vous permet de composer votre salade selon vos envies et vos goûts.</p>
       <p>Une quarantaine d'ingrédients frais et préparés le matin même sur place vous sont proposés au quotidien. </p>
@@ -60,7 +68,7 @@
 
   </div>
 
-  <img src="../assets/salade-detoure.png" alt="" srcset="" class=" relative w-[57%] h-screen">
+  <img src="./assets/salade-detoure.png" alt="" srcset="" class=" relative w-[57%] h-screen">
 
 </div>
 

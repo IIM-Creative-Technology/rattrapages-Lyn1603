@@ -6,10 +6,10 @@
   <link href="./src/style.css" rel="stylesheet">
   <link href="./dist/output.css" rel="stylesheet">
 </head>
-<body class="w-full h-screen">
-<div class=" flex flex-col  md:w-full lg:w-full  ">
+<body class="w-full h-screen ">
+<div class=" flex flex-col">
 
-  <div class=" flex flex-col bg-[url('../assets/luisa-brimble-2RrBE90w0T8-unsplash.jpg')] bg-cover h-screen w-full relative">
+  <div class=" flex flex-col bg-[url('../assets/image_rotate.png')] bg-cover h-screen w-full relative">
     <div class="flex flex-row justify-between items-center absolute top-4 z-10 w-full pl-[64px] pr-[64px]">
 
       <img src="./assets/mangoo.png" alt="logo" class="w-auto h-14 md:flex hidden">
@@ -40,7 +40,7 @@
   
   </div>
 
-  <div class=" flex flex-row absolute top-[90%] left-[80%] z-10 pl-[64px] pr-[64px] gap-4 ">
+  <div class=" flex flex-row absolute top-[90%] left-[80%] z-10 pl-[64px] pr-[64px] gap-4 md:flex hidden ">
 
     <img src="./assets/Icon awesome-facebook-square.png" alt="" srcset="">
     <img src="./assets/Icon awesome-twitter-square.png" alt="" srcset="">
@@ -53,79 +53,68 @@
 </div>
 
 
-<div class=" flex flex-row bg-[url('../assets/61842.jpg')] bg-cover h-screen w-full">
+
+<div class=" flex flex-row bg-[url('../assets/61842.jpg')] bg-cover h-screen w-full md: flex hidden">
+  <div class="flex flex-col justify-left relative mt-[10%] ml-[5%] w-full h-screen pl-[64px] pr-[64px] ">
+    <h1 class=" text-[3.5rem] text-[#B2D234] font-semibold">Un salade sur mesure</h1>
+    <div class=" mt-4 flex flex-col gap-4 ">
+      <p> MONGOO vous permet de composer votre salade selon vos envies et vos goûts.</p>
+      <p>Une quarantaine d'ingrédients frais et préparés le matin même sur place vous sont proposés au quotidien. </p>
+      <p> Depuis maintenant 10 ans, MONGOO fait le bonheur des gourmets et des gourmands, alors pourquoi pas vous ?</p>
+    </div>
+    <button class="bg-[#B2D234] text-white w-[22%] h-[7%] rounded font-semibold mt-5 z-10	"> En savoir + </button>
+  </div>
+  <img src="../assets/salade-detoure.png" alt="" srcset="" class=" relative w-[57%] h-screen">
+</div>
+
+ <!-- RESPONSIVE BOX 1 -->
 
 
-  <div class="flex flex-col justify-left relative mt-[10%] ml-[5%] w-full h-screen pl-[64px] pr-[64px] md:flex hidden ">
+ <div class="md:hidden flex">
 
-    <h1 class=" text-[3.5rem] text-[#B2D234] font-semibold">Une salade sur mesure</h1>
+  <div class="flex flex-col justify-center items-center text-center mt-[10%] w-full h-screen pl-[10px] ">
+
+    <h1 class=" text-[2rem] text-[#B2D234] font-semibold">Une salade sur mesure</h1>
     <div class=" mt-4 flex flex-col gap-4 ">
       <p> MONGOO vous permet de composer votre salade selon vos envies et vos goûts.</p>
       <p>Une quarantaine d'ingrédients frais et préparés le matin même sur place vous sont proposés au quotidien. </p>
       <p> Depuis maintenant 10 ans, MONGOO fait le bonheur des gourmets et des gourmands, alors pourquoi pas vous ?</p>
 
     </div>
-    <button class="bg-[#B2D234] text-white w-[22%] h-[7%] rounded font-semibold mt-5 z-10	"> En savoir + </button>
+    <button class="bg-[#B2D234] text-white w-[22%] h-[7%] rounded font-semibold mt-5 z-10 md:flex hidden	"> En savoir + </button>
+    <button class="bg-[#B2D234] text-white flex justify-center items-center w-[45%] h-[7%] rounded font-semibold mt-5 relative bottom-8 top-6  md:hidden flex	"> En savoir + </button>
 
   </div>
 
-      <!-- RESPONSIVE BOX 1 -->
-
-
-  <div class="md:hidden flex">
-
-    <div class="flex flex-col justify-start items-center text-center mt-[10%] w-full h-screen pl-[68px] pr-[68px] ">
-
-      <h1 class=" text-[2rem] text-[#B2D234] font-semibold">Une salade sur mesure</h1>
-      <div class=" mt-4 flex flex-col gap-4 ">
-        <p> MONGOO vous permet de composer votre salade selon vos envies et vos goûts.</p>
-        <p>Une quarantaine d'ingrédients frais et préparés le matin même sur place vous sont proposés au quotidien. </p>
-        <p> Depuis maintenant 10 ans, MONGOO fait le bonheur des gourmets et des gourmands, alors pourquoi pas vous ?</p>
-  
-      </div>
-      <button class="bg-[#B2D234] text-white w-[22%] h-[7%] rounded font-semibold mt-5 z-10 md:flex hidden	"> En savoir + </button>
-      <button class="bg-[#B2D234] text-white flex justify-center items-center w-[45%] h-[7%] rounded font-semibold mt-5 relative bottom-8 top-6  md:hidden flex	"> En savoir + </button>
-
-    </div>
-
-
-  </div>
-
-      <!-- FIN RESPONSIVE BOX 1 -->
-
-
-  <img src="./assets/salade-detoure.png" alt="" srcset="" class=" relative w-[57%] h-screen md:flex hidden">
-  
 
 </div>
 
+    <!-- FIN RESPONSIVE BOX 1 -->
 
-<div class=" flex flex-row bg-[url('../assets/ismael-trevino-NDyuR4Huig8-unsplash.jpg')] bg-cover h-screen w-full">
-
-  <div class="flex flex-col text-white  justify-between items-center text-center mt-[4%] ml-[45%] z-10 w-[35%] h-[85%] pl-[64px] pr-[64px] bg-[#B2D234] bg-opacity-70 md:flex hidden ">
-
+<div class=" flex flex-row bg-[url('../assets/ismael-trevino-NDyuR4Huig8-unsplash.jpg')] bg-cover h-screen w-full md:flex hidden">
+  <div class="flex flex-col text-white  justify-between items-center text-center mt-[4%] ml-[45%] z-10 w-[35%] h-[85%] pl-[64px] pr-[64px] bg-[#B2D234] bg-opacity-70 ">
     <h1 class=" text-[2.87rem] font-bold">Préparé sur place avec amour </h1>
-
     <p>
       Chez MONGOO, tous les ingrédients et tous les desserts sont préparés sur place.
     </p>
-
     <p>
       Nous mettons un point d'honneur à ce que tous les matins, nos équipes de super-préparateurs découpent, tranchent, épluchent, assaisonnent, mélangent, émincent, saupoudrent et préparent tout ce qu'il y a sur le bar afin de vous proposer les meilleures combinaisons de salades possible.
     </p>
-
     <p>
       Alors faites votre choix !
     </p>
-
     <button class="bg-white text-[#B2D234] w-[45%] h-[7%] rounded font-semibold mt-5 -z-10 relative bottom-8	"> En savoir + </button>
-
 </div>
+</div>
+<div class="bg-slate-100 flex-col justify-center items-center ">
+  <div class=" bg-[url('../assets/pattern.png')] bg-cover h-[150vh] w-full ">
 
-    <!-- RESPONSIVE BOX 2 -->
 
 
-<div class="flex flex-col text-white  justify-center items-center text-center z-10 w-full h-screen bg-[#B2D234] bg-opacity-70 md:hidden flex ">
+     <!-- RESPONSIVE BOX 2 -->
+
+
+<div class="flex flex-col text-white justify-center items-center text-center z-10 w-full h-screen bg-[#B2D234] bg-opacity-70 pl-[10px] md:hidden flex ">
 
   <h1 class=" text-[2.87rem] font-bold">Préparé sur place avec amour </h1>
 
@@ -146,22 +135,10 @@
 </div>
 
     <!-- FIN RESPONSIVE BOX 2 -->
-
-
-</div>
-
-<div class="bg-slate-100 flex-col justify-center items-center ">
-
-  <div class=" bg-[url('../assets/pattern.png')] bg-cover h-[150vh] w-full ">
   
-
-        <div class="flex flex-col justify-center items-center gap-4">
+        <div class="flex flex-col justify-center items-center gap-4 md:flex hidden">
           
-
-          <h1 class=" text-[2.87rem] font-bold text-[#B2D234] mt-[5%] md:flex hidden">Vous avez dit menu ? </h1>
-          <h1 class=" text-[2.87rem] font-bold text-[#B2D234] text-center mt-[5%] md:hidden flex">Vous avez dit menu ? </h1>
-
-
+          <h1 class=" text-[2.87rem]  font-bold text-[#B2D234] mt-[5%] md:flex hidden">Vous avez dit menu ? </h1>
           <p class="w-[68%] text-lg text-gray-500 text-center">
             Un menu MONGOO, c'est une salade accompagnée d'une boisson et d'un dessert.
             Mais attention, pas n'importe quelle boisson et n'importe quel dessert...
@@ -170,17 +147,12 @@
           <p class="w-[68%] text-lg text-gray-500 text-center">
             Découvrez notre large sélection de boissons et desserts pour accompagner votre repas.
           </p>
-
         </div>
-
         <div class="flex flex-row justify-center items-center mt-[10%] md:flex hidden ">
           
             <div class="flex flex-col justify-around gap-12 items-center ">
-
               <div>
-
                 <div class="flex flex-row gap-[42%]">
-
                   <h1 class=" text-[1.5rem] text-[#B2D234] font-semibold">Salade J'aime</h1>
                   <p class="text-[1.5rem] text-[#B2D234] font-semibold"> 7€70</p>
   
@@ -192,15 +164,9 @@
                     Petit plus et pain offert 
                   </p>
                 </div>
-
-
-
               </div>
-
               <div>
-
                 <div class="flex flex-row gap-[39%]">
-
                   <h1 class=" text-[1.5rem] text-[#B2D234] font-semibold">Salade J'adore</h1>
                   <p class="text-[1.5rem] text-[#B2D234] font-semibold"> 7€70</p>
   
@@ -212,15 +178,10 @@
                     Petit plus et pain offert 
                   </p>
                 </div>
-
                 
-
               </div>
-
               <div>
-
                 <div class="flex flex-row gap-[47%] border-[#B2D234]	">
-
                   <h1 class=" text-[1.5rem] text-[#B2D234] font-semibold">Salade 2 - 2</h1>
                   <p class="text-[1.5rem] text-[#B2D234] font-semibold"> 7€70</p>
   
@@ -232,15 +193,10 @@
                     Petit plus et pain offert 
                   </p>
                 </div>
-
                 
-
               </div>
-
               <div>
-
                 <div class="flex flex-row gap-[37%] ">
-
                   <h1 class=" text-[1.5rem] text-[#B2D234] font-semibold">Salade Passion </h1>
                   <p class="text-[1.5rem] text-[#B2D234] font-semibold"> 7€70</p>
   
@@ -252,15 +208,10 @@
                     Petit plus et pain offert 
                   </p>
                 </div>
-
                 
-
               </div>
-
               <div>
-
                 <div class="flex flex-row gap-[47%]">
-
                   <h1 class=" text-[1.5rem] text-[#B2D234] font-semibold">Salade folie</h1>
                   <p class="text-[1.5rem] text-[#B2D234] font-semibold"> 7€70</p>
   
@@ -272,183 +223,173 @@
                     Petit plus et pain offert 
                   </p>
                 </div>
-
               </div>         
-
             </div>
-
             <div class="flex flex-col justify-center items-center gap-[70px] ">
                 <div>
-
                     <p class="text-[4rem] -rotate-12 text-[#B2D234]"> Force verte ? </p>
                     <p class=" text-[4rem] -rotate-12 text-[#60A0D8]"> Force bleue ? </p>
-
                 </div>
-
                 <div class=" w-[68%] text-sm text-gray-500 text-center  ">
                     <p>
                         Ne perdez pas une seconde, faites votre choix
                         et venez chercher votre salade dans 20min !
                     </p>
                 </div>
-
                 <button class="bg-[#B2D234] text-white px-[32px] py-[7px] rounded font-bold  "> Passer Commande </button>
-
-
             </div>
-
         </div>
-
-
-            <!-- RESPONSIVE BOX 3 -->
-
-
-        <div class="flex flex-col justify-center items-center mt-[10%] md:hidden flex ">
-          
-            <div class="flex flex-col justify-center items-center ">
-
-              <div>
-
-                <div class="flex flex-row gap-[42%]">
-
-                  <h1 class=" text-[1.5rem] text-[#B2D234] font-semibold">Salade J'aime</h1>
-                  <p class="text-[1.5rem] text-[#B2D234] font-semibold"> 7€70</p>
-  
-                </div>
-  
-                <div class="w-[68%] mr-[18%] text-sm text-gray-500">
-                  <p>
-                    1 base · 4 ingrédients verts · Sauce
-                    Petit plus et pain offert 
-                  </p>
-                </div>
-
-
-
-              </div>
-
-              <div>
-
-                <div class="flex flex-row gap-[39%]">
-
-                  <h1 class=" text-[1.5rem] text-[#B2D234] font-semibold">Salade J'adore</h1>
-                  <p class="text-[1.5rem] text-[#B2D234] font-semibold"> 7€70</p>
-  
-                </div>
-  
-                <div class="w-[68%] mr-[18%] text-sm text-gray-500">
-                  <p>
-                    1 base · 4 ingrédients verts · Sauce
-                    Petit plus et pain offert 
-                  </p>
-                </div>
-
-                
-
-              </div>
-
-              <div>
-
-                <div class="flex flex-row gap-[47%] border-[#B2D234]	">
-
-                  <h1 class=" text-[1.5rem] text-[#B2D234] font-semibold">Salade 2 - 2</h1>
-                  <p class="text-[1.5rem] text-[#B2D234] font-semibold"> 7€70</p>
-  
-                </div>
-  
-                <div class="w-[68%] mr-[18%] text-sm text-gray-500">
-                  <p>
-                    1 base · 4 ingrédients verts · Sauce
-                    Petit plus et pain offert 
-                  </p>
-                </div>
-
-                
-
-              </div>
-
-              <div>
-
-                <div class="flex flex-row gap-[37%] ">
-
-                  <h1 class=" text-[1.5rem] text-[#B2D234] font-semibold">Salade Passion </h1>
-                  <p class="text-[1.5rem] text-[#B2D234] font-semibold"> 7€70</p>
-  
-                </div>
-  
-                <div class="w-[68%] mr-[18%] text-sm text-gray-500">
-                  <p>
-                    1 base · 4 ingrédients verts · Sauce
-                    Petit plus et pain offert 
-                  </p>
-                </div>
-
-                
-
-              </div>
-
-              <div>
-
-                <div class="flex flex-row gap-[47%]">
-
-                  <h1 class=" text-[1.5rem] text-[#B2D234] font-semibold">Salade folie</h1>
-                  <p class="text-[1.5rem] text-[#B2D234] font-semibold"> 7€70</p>
-  
-                </div>
-  
-                <div class="w-[68%] mr-[18%] text-sm text-gray-500">
-                  <p>
-                    1 base · 4 ingrédients verts · Sauce
-                    Petit plus et pain offert 
-                  </p>
-                </div>
-
-              </div>         
-
-            </div>
-
-            <div class="flex flex-col justify-center items-center gap-[70px] mt-10 ">
-                <div>
-
-                    <p class="text-[4rem] -rotate-12 text-[#B2D234]"> Force verte ? </p>
-                    <p class=" text-[4rem] -rotate-12 text-[#60A0D8]"> Force bleue ? </p>
-
-                </div>
-
-                <div class=" w-[68%] text-sm text-gray-500 text-center  ">
-                    <p>
-                        Ne perdez pas une seconde, faites votre choix
-                        et venez chercher votre salade dans 20min !
-                    </p>
-                </div>
-
-                <button class="bg-[#B2D234] text-white px-[32px] py-[7px] rounded font-bold  "> Passer Commande </button>
-
-
-            </div>
-
-        </div>
-
-
-            <!-- FIN RESPONSIVE BOX 3 -->
-
-
-
   </div>
+
+
+           <!-- RESPONSIVE BOX 3 -->
+
+           <h1 class=" text-[2rem] font-bold text-[#B2D234] text-center pl-[60px] relative bottom-[40vh] md:hidden flex">Vous avez dit menu ? </h1>
+
+
+           <p class="w-full text-sm text-gray-500 text-center relative bottom-[30vh]  md:hidden flex">
+              Un menu MONGOO, c'est une salade accompagnée d'une boisson et d'un dessert.
+              Mais attention, pas n'importe quelle boisson et n'importe quel dessert...
+            </p>
+    
+            <p class="w-full text-sm text-gray-500 text-center relative bottom-[20vh] md:hidden flex">
+              Découvrez notre large sélection de boissons et desserts pour accompagner votre repas.
+            </p>
   
+  
+          <div class="flex flex-col justify-start items-center relative bottom-[10vh] gap-10 pl-[10px] md:hidden flex ">
+            
+              <div class="flex flex-col justify-center items-center pl-[30px]  ">
+  
+                <div>
+  
+                  <div class="flex flex-row gap-[42%] ">
+  
+                    <h1 class=" text-[1rem] text-[#B2D234] font-semibold">Salade J'aime</h1>
+                    <p class="text-[1.5rem] text-[#B2D234] font-semibold"> 7€70</p>
+    
+                  </div>
+    
+                  <div class="w-[68%] mr-[18%] text-sm text-gray-500">
+                    <p>
+                      1 base · 4 ingrédients verts · Sauce
+                      Petit plus et pain offert 
+                    </p>
+                  </div>
+  
+  
+  
+                </div>
+  
+                <div>
+  
+                  <div class="flex flex-row gap-[39%]">
+  
+                    <h1 class=" text-[1rem] text-[#B2D234] font-semibold">Salade J'adore</h1>
+                    <p class="text-[1.5rem] text-[#B2D234] font-semibold"> 7€70</p>
+    
+                  </div>
+    
+                  <div class="w-[68%] mr-[18%] text-sm text-gray-500">
+                    <p>
+                      1 base · 4 ingrédients verts · Sauce
+                      Petit plus et pain offert 
+                    </p>
+                  </div>
+  
+                  
+  
+                </div>
+  
+                <div>
+  
+                  <div class="flex flex-row gap-[47%] border-[#B2D234]	">
+  
+                    <h1 class=" text-[1rem] text-[#B2D234] font-semibold">Salade 2 - 2</h1>
+                    <p class="text-[1.5rem] text-[#B2D234] font-semibold"> 7€70</p>
+    
+                  </div>
+    
+                  <div class="w-[68%] mr-[18%] text-sm text-gray-500">
+                    <p>
+                      1 base · 4 ingrédients verts · Sauce
+                      Petit plus et pain offert 
+                    </p>
+                  </div>
+  
+                  
+  
+                </div>
+  
+                <div>
+  
+                  <div class="flex flex-row gap-[37%] ">
+  
+                    <h1 class=" text-[1rem] text-[#B2D234] font-semibold">Salade Passion </h1>
+                    <p class="text-[1.5rem] text-[#B2D234] font-semibold"> 7€70</p>
+    
+                  </div>
+    
+                  <div class="w-[68%] mr-[18%] text-sm text-gray-500">
+                    <p>
+                      1 base · 4 ingrédients verts · Sauce
+                      Petit plus et pain offert 
+                    </p>
+                  </div>
+  
+                  
+  
+                </div>
+  
+                <div>
+  
+                  <div class="flex flex-row gap-[47%]">
+  
+                    <h1 class=" text-[1rem] text-[#B2D234] font-semibold">Salade folie</h1>
+                    <p class="text-[1.5rem] text-[#B2D234] font-semibold"> 7€70</p>
+    
+                  </div>
+    
+                  <div class="w-[68%] mr-[18%] text-sm text-gray-500">
+                    <p>
+                      1 base · 4 ingrédients verts · Sauce
+                      Petit plus et pain offert 
+                    </p>
+                  </div>
+  
+                </div>         
+  
+              </div>
+  
+              <div class="flex flex-col justify-center items-center gap-[55px] ">
+                  <div>
+  
+                      <p class="text-[2.5rem] -rotate-12 text-[#B2D234]"> Force verte ? </p>
+                      <p class=" text-[2.5rem] -rotate-12 text-[#60A0D8]"> Force bleue ? </p>
+  
+                  </div>
+  
+                  <div class=" w-[68%] text-sm text-gray-500 text-center  ">
+                      <p>
+                          Ne perdez pas une seconde, faites votre choix
+                          et venez chercher votre salade dans 20min !
+                      </p>
+                  </div>
+  
+                  <button class="bg-[#B2D234] text-white px-[32px] py-[7px] rounded font-bold  "> Passer Commande </button>
+  
+  
+              </div>
+  
+          </div>
+  
+  
+              <!-- FIN RESPONSIVE BOX 3 -->
 
-</div>
-
-
-<div class=" flex flex-row bg-[url('../assets/louis-hansel-MlPD-AzZYMg-unsplash.jpg')] bg-cover h-screen w-full justify-around items-center">
-
-
-    <div class="flex flex-row gap-10 md:flex hidden ">
-
+<div class=" flex flex-row bg-[url('../assets/louis-hansel-MlPD-AzZYMg-unsplash.jpg')] bg-cover h-screen w-full justify-around items-center md:flex hidden">
+    <div class="flex flex-row gap-10 ">
         <div class="flex flex-col text-white text-center justify-center items-center bg-[#B2D234] bg-opacity-70 z-10 w-[45vw] h-[50vh] ">
-
             <h1 class=" text-[2.87rem] font-bold">Chez les verts </h1>
-
             <div class="flex flex-row gap-5">
                 <ul>
                     <li>Croûtons</li>
@@ -461,7 +402,6 @@
                     <li>Maïs</li>
                     <li>Oignons rouges</li>
                 </ul>
-
                 <ul>
                     <li>Croûtons</li>
                     <li>Oeuf (1)</li>
@@ -474,14 +414,10 @@
                     <li>Oignons rouges</li>
                 </ul>
             </div>
-
         </div>
         
-
         <div class="flex flex-col text-white text-center justify-center items-center bg-[#60A0D8] bg-opacity-70 z-10 w-[45vw] h-[50vh] ">
-
             <h1 class=" text-[2.87rem] font-bold">Chez les bleues </h1>
-
             <div class="flex flex-row gap-5">
                 <ul>
                     <li>Croûtons</li>
@@ -494,7 +430,6 @@
                     <li>Maïs</li>
                     <li>Oignons rouges</li>
                 </ul>
-
                 <ul>
                     <li>Croûtons</li>
                     <li>Oeuf (1)</li>
@@ -507,21 +442,22 @@
                     <li>Oignons rouges</li>
                 </ul>
             </div>
-
         </div>
   
      
   
     </div>
 
+    
+</div>
 
 
     <!-- RESPONSIVE BOX 4 -->
 
 
-    <div class="flex flex-col gap-10 md:hidden flex ">
+    <div class="flex flex-col bg-[url('../assets/louis-hansel-MlPD-AzZYMg-unsplash.jpg')] gap-10 md:hidden flex ">
 
-      <div class="flex flex-col text-white text-center justify-center items-center bg-[#B2D234] bg-opacity-70 z-10 w-full h-full ">
+      <div class="flex flex-col text-white text-center justify-center items-center bg-[#B2D234] bg-opacity-70 z-10 w-full h-full pl-[10px] ">
 
           <h1 class=" text-[2.87rem] font-bold">Chez les verts </h1>
 
@@ -554,7 +490,7 @@
       </div>
       
 
-      <div class="flex flex-col text-white text-center justify-center items-center bg-[#60A0D8] bg-opacity-70 z-10 w-full h-full pl-[64px] pr-[64px]  ">
+      <div class="flex flex-col text-white text-center justify-center items-center bg-[#60A0D8] bg-opacity-70 z-10 w-full h-full pl-[10px]  ">
 
           <h1 class=" text-[2.87rem] font-bold">Chez les bleues </h1>
 
@@ -592,224 +528,125 @@
 
       <!-- FIN RESPONSIVE BOX 4 -->
 
-
-
-
-
-
-</div>
-
-
-
+      
 <div class=" flex flex-row bg-[url('../assets/grid.png')] bg-cover h-screen w-full justify-around items-center bg-white md:flex hidden">
-
-
     <div class="flex flex-row gap-10 ">
-
         <div class="w-[30vw] h-[25vh] ">
-
                 <img src="./assets/bg5.jpg" alt="" srcset="">
                 <div class="w-[100%] h-1 border border-white relative bottom-[30vh] bg-white"></div>
                 <div class="w-[101%] h-1 border border-white relative bottom-[30vh] bg-white rotate-90"></div>
-
-
-
         </div>
         
-
-        <div class="flex flex-col text-white text-center justify-center items-center bg-opacity-70 z-10 w-[45vw] h-[50vh] gap-12  ">
-
+        <div class="flex flex-col text-white text-center justify-center items-center bg-opacity-70 z-10 w-[45vw] h-[50vh] gap-12 ">
             <h1 class=" text-[3.5rem] text-[#B2D234] font-bold">Envie de partager ?</h1>
-
             <p class="w-[75%] text-base text-gray-500 text-center">
                 Toute l'année, on recrute des employés motivés pour tous nos restaurants ! 
                 N'hésitez pas à postuler !
             </p>
-
             <div class="w-full">
                 <form class="px-8 pt-6 pb-8 mb-4">
-
                 <div class="flex flex-row gap-4 w-full">
-
                     <div class="mb-4 text-left">
                         <label class="text-[#B2D234] text-sm font-bold mb-2">
                           Nom
                         </label>
                         <input class=" border border-gray-400 w-full py-2 px-11 text-gray-700 " type="text">
                     </div>
-
                     <div class="mb-6 text-left">
                         <label class=" text-[#B2D234] text-sm font-bold mb-2" >
                           Prenom
                         </label>
                         <input class=" border border-gray-400 w-full py-2 px-11 text-gray-700 mb-3 " type="text">
                     </div>
-
                 </div>
-
                 <div class="mb-6 text-left">
                     <label class=" text-[#B2D234] text-sm font-bold mb-2" >
                       Email
                     </label>
                     <input class=" border border-gray-400 w-full py-2 px-11 text-gray-700 mb-3 " type="text">
                 </div>
-
                 <div class="mb-6 text-left">
                     <label class=" text-[#B2D234] text-sm font-bold mb-2" >
                       Votre motivation en quelques mots
                     </label>
                     <input class=" border border-gray-400 w-full py-2 px-11 text-gray-700 mb-3 h-28 " type="text">
                 </div>
-
-
                 <button class="bg-[#B2D234] text-white px-[32px] py-[7px] rounded font-bold  "> Postuler </button>
-
-
                 </form>
                 
               </div>
-
         </div>
+  
+     
 
-
-    
     </div>
 
 </div>
 
 
-<!--RESPONSIVE BOX5 -->
+<div class="bg-[#B2D234] md:flex hidden">
+    <div class="mx-auto w-full text-center text-white ">
+      <div class="grid grid-cols-2 gap-[5%] px-4 py-6 lg:py-8 md:grid-cols-4">
+        <div>
+         <img src="./assets/mangoo.png" alt="" srcset="" class="w-[50vw]">
+        </div>
+        <div>
+            <h2 class="mb-6 text-lg font-semibold ">Commander</h2>
+            <ul class="text-sm">
+                <li class="mb-4">
+                    Passer commande
+                </li>
+                <li class="mb-4">
+                    Nos menus
+                </li>
+                <li class="mb-4">
+                    Restaurants 
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2 class="mb-6 text-lg font-semibold ">Informations</h2>
+            <ul class="text-sm">
+                <li class="mb-4">
+                    FAQ
+                </li>
+                <li class="mb-4">
+                    Mentions légales
+                </li>
+                <li class="mb-4">
+                     Recruement
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h2 class="mb-6 text-lg font-semibold ">Nous retrouver</h2>
+            <ul class="text-sm">
+                <li class="mb-4">
+                    Facebook
+                </li>
+                <li class="mb-4">
+                    Twitter
+                </li>
+                <li class="mb-4">
+                    Instagram
+                </li>
+            </ul>
+        </div>
+    </div>
 
-
-<div class=" flex flex-col bg-[url('../assets/grid.png')] bg-cover h-screen w-full justify-around items-center bg-white md:hidden flex">
-
-
-  <div class="flex flex-col justify-center items-center ">
-
-    
-      <div class="flex flex-col text-white text-center justify-center items-center bg-opacity-70 w-full h-screen relative top-[10%] ">
-
-          <h1 class=" text-[2.75rem] text-[#B2D234] font-bold">Envie de partager ?</h1>
-
-          <p class="w-[75%] text-base text-gray-500 text-center">
-              Toute l'année, on recrute des employés motivés pour tous nos restaurants ! 
-              N'hésitez pas à postuler !
-          </p>
-
-          <div class="w-full">
-              <form class="px-8 pb-8 mb-4">
-
-              <div class="flex flex-col gap-4 w-full">
-
-                  <div class="mb-4 text-left">
-                      <label class="text-[#B2D234] text-sm font-bold mb-2">
-                        Nom
-                      </label>
-                      <input class=" border border-gray-400 w-full py-2 px-11 text-gray-700 " type="text">
-                  </div>
-
-                  <div class="mb-6 text-left">
-                      <label class=" text-[#B2D234] text-sm font-bold mb-2" >
-                        Prenom
-                      </label>
-                      <input class=" border border-gray-400 w-full py-2 px-11 text-gray-700 mb-3 " type="text">
-                  </div>
-
-              </div>
-
-              <div class="mb-6 text-left">
-                  <label class=" text-[#B2D234] text-sm font-bold mb-2" >
-                    Email
-                  </label>
-                  <input class=" border border-gray-400 w-full py-2 px-11 text-gray-700 mb-3 " type="text">
-              </div>
-
-              <div class="mb-6 text-left">
-                  <label class=" text-[#B2D234] text-sm font-bold mb-2" >
-                    Votre motivation en quelques mots
-                  </label>
-                  <input class=" border border-gray-400 w-full py-2 px-11 text-gray-700 mb-3 h-28 " type="text">
-              </div>
-
-
-              <button class="bg-[#B2D234] text-white px-[32px] py-[7px] rounded font-bold  "> Postuler </button>
-
-
-              </form>
-              
-            </div>
-
-      </div>
-
-
-
-     <!-- FIN RESPONSIVE BOX5 -->
-
-
-     <footer class="bg-[#B2D234] md:flex hidden">
-      <div class="mx-auto w-full text-center text-white ">
-        <div class="grid grid-cols-2 gap-[5%] px-4 py-6 lg:py-8 md:grid-cols-4">
-          <div>
-           <img src="./assets/mangoo.png" alt="" srcset="" class="w-[50vw]">
-          </div>
-          <div>
-              <h2 class="mb-6 text-lg font-semibold ">Commander</h2>
-              <ul class="text-sm">
-                  <li class="mb-4">
-                      Passer commande
-                  </li>
-                  <li class="mb-4">
-                      Nos menus
-                  </li>
-                  <li class="mb-4">
-                      Restaurants 
-                  </li>
-              </ul>
-          </div>
-          <div>
-              <h2 class="mb-6 text-lg font-semibold ">Informations</h2>
-              <ul class="text-sm">
-                  <li class="mb-4">
-                      FAQ
-                  </li>
-                  <li class="mb-4">
-                      Mentions légales
-                  </li>
-                  <li class="mb-4">
-                       Recruement
-                  </li>
-              </ul>
-          </div>
-          <div>
-              <h2 class="mb-6 text-lg font-semibold ">Nous retrouver</h2>
-              <ul class="text-sm">
-                  <li class="mb-4">
-                      Facebook
-                  </li>
-                  <li class="mb-4">
-                      Twitter
-                  </li>
-                  <li class="mb-4">
-                      Instagram
-                  </li>
-              </ul>
-          </div>
-      </div>
-  
-      </div>
-  </footer>
-
+    </div>
+</div>
 
 <!--RESPONSIVE FOOTER -->
 
-<footer class="bg-[#B2D234] md:hidden flex ">
-  <div class="mx-auto w-full flex flex-col text-center text-white ">
-    <div class="grid grid-cols-2 gap-[5%] px-4 py-6 lg:py-8 md:grid-cols-4">
+<div class="bg-[#B2D234] w-full h-screen mt-[10%] md:hidden flex ">
+  <div class=" w-full flex flex-col justify-center items-center text-center text-white ">
+    <div class="grid grid-cols-1 gap-[5%]  md:grid-cols-4">
       <div>
-       <img src="./assets/mangoo.png" alt="" srcset="" class="w-[50vw]">
+       <img src="./assets/mangoo.png" alt="" srcset="" class="w-[50vw] ">
       </div>
       <div>
-          <h2 class="mb-6 text-lg font-semibold ">Commander</h2>
+          <h2 class="text-lg font-semibold ">Commander</h2>
           <ul class="text-sm">
               <li class="mb-4">
                   Passer commande
@@ -853,12 +690,12 @@
   </div>
 
   </div>
-</footer>
+</div>
 
 <!--FIN RESPONSIVE-->
 
 
+</div>
 
 </div>
 </body>
-</html>

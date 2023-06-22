@@ -15,7 +15,7 @@ En observant la maquette, j'ai pu y constaté plusieurs similitudes entre les di
 De plus, étant un framework qui utilise le mobile first, il a été idéal pour moi de jouer avec les flex hidden pour pouvoir personnalisé un maximum mon responsive que mon format ordinateur tout en respectant la maquette de cette dernière.
 
 ## Liens utiles : 
-Je me suis principalement aidé de la documention officielle de Tailwind qui est la suivante : https://tailwindcss.com/docs/installation
-Je vous conseille également cette vidéo qui vous explique pas à pas mon raisonnement : https://www.loom.com/share/07495f9db19a4bf1a6ac914a48163c4d?sid=7c610c4e-aee6-4a16-8770-6989f745c114
+#### Je me suis principalement aidé de la documention officielle de Tailwind qui est la suivante : https://tailwindcss.com/docs/installation
+#### Je vous conseille également cette vidéo qui vous explique pas à pas mon raisonnement : https://www.loom.com/share/07495f9db19a4bf1a6ac914a48163c4d?sid=7c610c4e-aee6-4a16-8770-6989f745c114
 
 ## Merci à vous ! 

@@ -1,7 +1,7 @@
 
 # RATTRAPAGE TAILWIND LYNDA BENABDESSADOK 
 
-#### Bonjour , je suis Lynda Benabdessadok et je vais vous présenter mon exercice effectué avec comme technologie utilisée : Tailwind.
+#### Bonjour , je suis Lynda Benabdessadok et je vais vous présenter mon exercice effectué avec, comme technologie utilisée, Tailwind.
 
 ## Contexte : 
 #### Le projet que nous devions réalisé était une intégration de maquette du restaurant Mangoo. 

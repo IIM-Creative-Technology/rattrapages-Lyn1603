@@ -13,7 +13,7 @@
 #### En observant la maquette, j'ai pu y constaté plusieurs similitudes entre les div de la maquette, ce qui m'a facilité le developpement du responsive en adaptant les éléments de mes div en fonction de la taille de l'écran. 
 #### De plus, étant un framework qui utilise le mobile first, il a été idéal pour moi de jouer avec les flex hidden pour pouvoir personnalisé un maximum mon responsive que mon format ordinateur tout en respectant la maquette de cette dernière.
 
-## 3- Liens utiles : 
+## 3- Liens de recherche : 
 #### Je me suis principalement aidé de la documention officielle de Tailwind qui est la suivante : 
 #### https://tailwindcss.com/docs/installation
 #### Je vous conseille également cette vidéo qui vous explique pas à pas mon raisonnement : 

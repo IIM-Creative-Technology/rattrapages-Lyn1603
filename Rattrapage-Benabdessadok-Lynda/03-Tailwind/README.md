@@ -1,7 +1,7 @@
 
 # RATTRAPAGE TAILWIND LYNDA BENABDESSADOK 
 
-## Bonjour , 
+#### Bonjour , 
 #### Je suis Lynda Benabdessadok et je vais vous présenter mon exercice effectué avec comme technologie utilisée : Tailwind.
 
 ## Contexte : 

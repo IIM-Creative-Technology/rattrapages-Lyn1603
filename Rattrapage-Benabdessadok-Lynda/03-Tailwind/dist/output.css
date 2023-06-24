@@ -582,6 +582,106 @@ video {
   top: 90%;
 }
 
+.bottom-0 {
+  bottom: 0px;
+}
+
+.bottom-1 {
+  bottom: 0.25rem;
+}
+
+.bottom-5 {
+  bottom: 1.25rem;
+}
+
+.bottom-6 {
+  bottom: 1.5rem;
+}
+
+.left-6 {
+  left: 1.5rem;
+}
+
+.left-10 {
+  left: 2.5rem;
+}
+
+.left-\[\] {
+  left: ;
+}
+
+.left-\[30\%\] {
+  left: 30%;
+}
+
+.left-\[35\%\] {
+  left: 35%;
+}
+
+.left-\[3\%\] {
+  left: 3%;
+}
+
+.left-\[38\%\] {
+  left: 38%;
+}
+
+.left-\[\%\] {
+  left: %;
+}
+
+.left-\[40\%\] {
+  left: 40%;
+}
+
+.left-\[39\%\] {
+  left: 39%;
+}
+
+.left-\[39\.5\%\] {
+  left: 39.5%;
+}
+
+.left-\[70\%\] {
+  left: 70%;
+}
+
+.left-\[100\%\] {
+  left: 100%;
+}
+
+.left-\[95\%\] {
+  left: 95%;
+}
+
+.left-\[75\%\] {
+  left: 75%;
+}
+
+.left-\[7\%\] {
+  left: 7%;
+}
+
+.left-\[79\%\] {
+  left: 79%;
+}
+
+.left-\[77\%\] {
+  left: 77%;
+}
+
+.left-\[76\%\] {
+  left: 76%;
+}
+
+.bottom-2 {
+  bottom: 0.5rem;
+}
+
+.left-\[72\%\] {
+  left: 72%;
+}
+
 .-z-10 {
   z-index: -10;
 }
@@ -759,6 +859,10 @@ video {
   width: 100%;
 }
 
+.w-1 {
+  width: 0.25rem;
+}
+
 .-rotate-12 {
   --tw-rotate: -12deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -783,6 +887,10 @@ video {
 
 .flex-col {
   flex-direction: column;
+}
+
+.items-start {
+  align-items: flex-start;
 }
 
 .items-center {
@@ -880,6 +988,22 @@ video {
 .border-white {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
+.border-\[\] {
+  border-color: ;
+}
+
+.border-\[\#\] {
+  border-color: #;
+}
+
+.border-\[\#B\] {
+  border-color: #B;
+}
+
+.border-\[\#B2D2\] {
+  border-color: #B2D2;
 }
 
 .bg-\[\#60A0D8\] {
@@ -995,10 +1119,6 @@ video {
   padding-left: 30px;
 }
 
-.pl-\[60px\] {
-  padding-left: 60px;
-}
-
 .pl-\[64px\] {
   padding-left: 64px;
 }
@@ -1011,20 +1131,16 @@ video {
   padding-top: 1.5rem;
 }
 
-.pl-\[50px\] {
-  padding-left: 50px;
-}
-
-.pl-\[45px\] {
-  padding-left: 45px;
-}
-
 .text-left {
   text-align: left;
 }
 
 .text-center {
   text-align: center;
+}
+
+.text-right {
+  text-align: right;
 }
 
 .text-\[1\.5rem\] {

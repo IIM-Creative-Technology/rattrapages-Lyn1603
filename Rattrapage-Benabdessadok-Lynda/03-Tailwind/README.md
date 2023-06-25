@@ -8,7 +8,7 @@
 #### Pour ce faire, je suis partie d'une configuration vanilla avec un fichier HTML et deux fichiers CSS pour pouvoir compiler mon Tailwind.
 
 ## 2- Installation de tailwind :
-#### Voici les étapes d'installation de TailwindCSS avec un fichier HTML :
+### Voici les étapes d'installation de TailwindCSS avec un fichier HTML :
 
 a. Créer un nouveau répertoire pour votre projet et naviguez-y à l'aide d'un terminal ou d'une invite de commande.
 
